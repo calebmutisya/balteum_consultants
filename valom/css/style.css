@@ -55,8 +55,8 @@
   --tg-body-line-height: 1.75;
   --tg-heading-line-height: 1.2;
   --tg-body-color: #74787C;
-  --tg-heading-color: #1D3131;
-  --tg-theme-primary: #128982;
+  --tg-heading-color: #DD9933;
+  --tg-theme-primary: #DD3333;
   --tg-color-dark-theme: #51AEA9;
   --tg-color-white-default: #ffffff;
   --tg-color-red-default: #ED1730;
@@ -2404,7 +2404,7 @@ textarea.is-invalid {
   gap: 25px;
 }
 .tg-header__top-two {
-  background: var(--tg-color-gray-1);
+  background: var(--tg-heading-color);
   padding: 8.5px 0;
 }
 .tg-header__top-two .tg-header__top-social .list-wrap li a {
@@ -2663,9 +2663,9 @@ textarea.is-invalid {
   display: block;
 }
 .info-card .info-card_link {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   margin-bottom: -0.4em;
   display: block;
 }
