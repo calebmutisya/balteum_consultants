@@ -11028,6 +11028,11 @@ blockquote .blockquote-card_title:before {
 /*=============================
     Why Choose Us 01
 ===============================*/
+
+.wcu-area-1 {
+  background-color: var(--tg-color-white-default);
+}
+
 .wcu-card .box-icon {
   color: var(--tg-theme-primary);
   margin-bottom: 32px;
@@ -11040,6 +11045,7 @@ blockquote .blockquote-card_title:before {
   font-weight: 700;
   line-height: 1.41666em;
   margin-bottom: 13px;
+  color: var(--tg-color-gray-1);
 }
 .wcu-card .box-text {
   margin-bottom: -0.3em;
