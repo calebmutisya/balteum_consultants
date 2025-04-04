@@ -5947,6 +5947,7 @@ textarea.is-invalid {
   border-radius: 40px 0px;
   padding: 60px 50px;
   transition: 0.4s;
+  min-height: 364px;
 }
 .counter-card_title {
   font-weight: 700;
@@ -5971,7 +5972,7 @@ textarea.is-invalid {
   }
 }
 .counter-card_subtitle {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   font-family: var(--tg-heading-font-family);
   color: var(--tg-theme-primary);
@@ -8143,6 +8144,11 @@ textarea.is-invalid {
   align-self: center;
 }
 @media (max-width: 767.98px) {
+
+  .about-area-2{
+    padding-bottom: 60px;
+  }
+
   .about-grid-card {
     display: block;
   }
@@ -8733,6 +8739,23 @@ textarea.is-invalid {
     padding: 30px;
   }
 }
+
+/*=============================
+    Counter Area Starts
+===============================*/
+
+@media (max-width: 767.98px) {
+  .counter-area-1{
+    padding-top: 60px;
+  }
+}
+
+/*=============================
+    Counter Area Ends
+===============================*/
+
+
+
 
 /*=============================
     Blog
