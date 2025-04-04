@@ -558,10 +558,11 @@ textarea {
   line-height: 1.5em;
   font-size: 16px;
   font-weight: 600;
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   display: flex;
   gap: 18px;
 }
+
 .checklist-wrap .list-wrap li .icon {
   color: var(--tg-theme-primary);
   flex: none;
@@ -5033,7 +5034,7 @@ textarea.is-invalid {
   text-align: center;
 }
 .team-card .box-title {
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   font-size: 24px;
   font-weight: 700;
   margin-top: -0.15em;
@@ -8294,7 +8295,7 @@ textarea.is-invalid {
 
 .about-wrap2 .cta-link {
   font-family: var(--tg-heading-font-family);
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   margin-top: 30px;
 }
 .about-wrap2 .cta-link a {
