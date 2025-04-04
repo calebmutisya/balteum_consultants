@@ -4962,9 +4962,11 @@ textarea.is-invalid {
   border-radius: 15px;
   background: var(--tg-color-white-default);
   overflow: hidden;
+  width: 350px;
 }
 .team-card .box-img {
   position: relative;
+  width: 350px;
 }
 .team-card .box-img .thumb {
   overflow: hidden;
