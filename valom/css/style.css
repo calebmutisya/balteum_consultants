@@ -4150,6 +4150,7 @@ textarea.is-invalid {
   position: relative;
   background: var(--tg-color-gray-3);
   /* height: 84vh; */
+  /* padding-bottom: 65px; */
 }
 .hero-slider4 .swiper-slide {
   background-size: cover;
@@ -4187,6 +4188,14 @@ textarea.is-invalid {
   bottom: 0;
   left: 50%;
 }
+
+@media (max-width: 430px) {
+
+  .hero-slider4 .swiper-slide .hero-bg-shape4-1 {
+    display: none;
+  }
+}
+
 @media (max-width: 1399px) {
   .hero-slider4 .swiper-slide .hero-bg-shape4-4 {
     transform: rotate(-33.94deg) translate(40%, 40%);
