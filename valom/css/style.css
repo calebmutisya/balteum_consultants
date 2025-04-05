@@ -4149,6 +4149,7 @@ textarea.is-invalid {
 .hero-slider4 {
   position: relative;
   background: var(--tg-color-gray-3);
+  /* height: 84vh; */
 }
 .hero-slider4 .swiper-slide {
   background-size: cover;
