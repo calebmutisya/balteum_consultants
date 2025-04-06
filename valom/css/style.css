@@ -7677,7 +7677,7 @@ textarea.is-invalid {
   font-size: 18px;
   font-weight: 600;
   font-family: var(--tg-heading-font-family);
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   border: 0;
   background-color: transparent;
   text-align: left;
@@ -7744,7 +7744,7 @@ textarea.is-invalid {
   font-size: 16px;
   margin: 0;
   opacity: 0.7;
-  color: var(--tg-heading-color);
+  color: var(--tg-body-color);
 }
 @media (max-width: 767.98px) {
   .accordion-card .accordion-body p {
@@ -11109,7 +11109,7 @@ blockquote .blockquote-card_title:before {
   font-family: var(--tg-heading-font-family);
   margin-bottom: 0;
   margin-top: 12px;
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
 }
 .skill-feature .progress {
   background: var(--tg-border-1);
@@ -11129,7 +11129,7 @@ blockquote .blockquote-card_title:before {
   position: absolute;
   top: 20px;
   right: 0;
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
 }
 
 /*=============================
