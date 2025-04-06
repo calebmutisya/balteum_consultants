@@ -6936,14 +6936,14 @@ textarea.is-invalid {
   transition: 0.4s;
   border-radius: 7px;
   box-shadow: 0px 0px 15px rgba(29, 43, 42, 0.1);
-  height: 80px;
+  height: 128px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .client-card img {
   transition: 0.4s;
-  filter: grayscale(1);
+  filter: none;
 }
 .client-card:hover img {
   filter: none;
@@ -8397,6 +8397,7 @@ textarea.is-invalid {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 0;
+  color: var(--tg-color-gray-1);
 }
 @media (max-width: 767.98px) {
   .about-grid-card.style2 .box-title {
