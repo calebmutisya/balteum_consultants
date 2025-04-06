@@ -4538,7 +4538,7 @@ textarea.is-invalid {
   margin-top: -0.25em;
 }
 .service-card .box-title a {
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
 }
 .service-card .box-title a:hover {
   color: var(--tg-theme-primary);
@@ -4760,6 +4760,10 @@ textarea.is-invalid {
   border: 1px solid #E1EBEB;
   border-bottom: 0;
   border-radius: 5px 5px 0 0;
+}
+
+.service-card.style4 .box-content .box_title {
+  color: var(--tg-color-gray-1);
 }
 
 /*=============================
