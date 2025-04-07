@@ -8170,12 +8170,16 @@ textarea.is-invalid {
   .about-area-2{
     padding-bottom: 60px;
   }
-
   .about-grid-card {
     display: block;
   }
   .about-grid-card .box-icon {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 430px){
+  .about-area-3{
+    padding-top: 40px;
   }
 }
 
@@ -8361,6 +8365,9 @@ textarea.is-invalid {
   bottom: 80px;
 }
 @media (max-width: 380px) {
+  .about-thumb3-1{
+    display: none;
+  }
   .about-thumb3-1 {
     padding-right: 0;
   }
@@ -8770,6 +8777,12 @@ textarea.is-invalid {
 @media (max-width: 767.98px) {
   .counter-area-1{
     padding-top: 60px;
+  }
+}
+
+@media(max-width: 430px){
+  .counter-area-1{
+    padding-top: 40px;
   }
 }
 
