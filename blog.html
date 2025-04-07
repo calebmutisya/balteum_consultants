@@ -1,13 +1,530 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html class="no-js" lang="en">
 
-    <h1>blog</h1>
-    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog-Balteum Consultancy</title>
+    <meta name="description" content="Valom Business Consultancy HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/svg/favicon.svg">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./valom/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./valom/css/animate.min.css">
+    <link rel="stylesheet" href="./valom/css/magnific-popup.css">
+    <link rel="stylesheet" href="./valom/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./valom/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./valom/css/aos.css">
+    <link rel="stylesheet" href="./valom/css/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="./valom/css/default.css">
+    <link rel="stylesheet" href="./valom/css/style.css">
+</head>
+
+<body class="white-bg">
+
+    <!--Preloader-->
+    <div id="preloader" class="white-bg">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon"><img src="./assets/svg/preloader.svg" alt="Preloader"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+
+    <!-- Scroll-top -->
+    <button class="scroll__top scroll-to-target" data-target="html">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <!-- header-area -->
+    <header>
+        <div id="header-fixed-height"></div>
+        <div class="tg-header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-8">
+                        <ul class="tg-header__top-info left-side list-wrap">
+                            <li><i class="far fa-envelope"></i><a href="mailto:info@balteumconsultants.com">info@balteumconsultants.com</a></li>
+                            <li><i class="far fa-clock"></i>Working: Mon - Fri: 8.00 to 17.00</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-6 col-md-4">
+                        <ul class="tg-header__top-right list-wrap">
+                            <li>
+                                <div class="tg-header__top-links">
+                                    <a href="./blog.html">Company news</a>
+                                    <a href="./faq.html">Faq</a>
+                                </div>
+                            </li>
+                            <li class="tg-header__top-social">
+                                <ul class="list-wrap">
+                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com" target="_blank">
+                                            <svg class="d-block" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.33192 5.92804L13.5438 0H12.3087L7.78328 5.14724L4.16883 0H0L5.46575 7.78353L0 14H1.2351L6.01407 8.56431L9.83119 14H14L8.33192 5.92804ZM6.64027 7.85211L6.08648 7.07704L1.68013 0.909771H3.57718L7.13316 5.88696L7.68694 6.66202L12.3093 13.1316H10.4123L6.64027 7.85211Z" fill="currentColor" />
+                                            </svg>
+                                        </a></li>
+                                    <li><a href="https://www.fa-linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sticky-header" class="tg-header__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tgmenu__wrap">
+                            <nav class="tgmenu__nav">
+                                <div class="logo">
+                                    <a href="index.html"><img src="./assets/images/mylogo.png" alt="Logo"></a>
+                                </div>
+                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
+                                    <ul class="navigation">
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li class="menu-item-has-children"><a href="./services.html">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="./services/talentsourcing&selection.html">Talent Sourcing & Selection</a></li>
+                                                <li><a href="./services/employee_training.html">Employee Training</a></li>
+                                                <li><a href="./services/employee_training.html">Labour Outsourcing</a></li>
+                                                <li><a href="./services/occupational_health&safety.html">Occupational Health & Safety</a></li>
+                                                <li><a href="./services/hr_consultancy.html">HR Consultancy</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="./job_board.html">Job Board</a></li>
+                                        <li><a href="./aboutus.html">About Us</a></li>
+                                        <li><a href="./blog.html">News & Insights</a></li>
+                                        <li><a href="./faq.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tgmenu__action d-none d-md-block">
+                                    <ul class="list-wrap">
+                                        <li class="offCanvas-menu">
+                                            <a href="./contacts.html" class="btn">
+                                                <span class="btn-text" data-text="Get In Touch"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mobile-nav-toggler d-lg-none d-inline-flex">
+                                    <a href="javascript:void(0)" class="sidebar-btn">
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                        <span class="line"></span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="tgmobile__menu">
+            <nav class="tgmobile__menu-box">
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+                <div class="nav-logo">
+                    <a href="index.html"><img src="./assets/images/mylogo.png" alt="Logo"></a>
+                </div>
+                <div class="tgmobile__menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+                <div class="tgmobile__menu-bottom">
+                    <div class="contact-info">
+                        <ul class="list-wrap">
+                            <li>Mail: <a href="mailto:info@balteumconsultants.com">info@balteumconsultants.com</a></li>
+                            <li>Phone: <a href="tel:+254 020 440662">+254 020 440662</a></li>
+                    </div>
+                    <div class="social-links">
+                        <ul class="list-wrap">
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com" target="_blank">
+                                    <svg class="d-block" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.33192 5.92804L13.5438 0H12.3087L7.78328 5.14724L4.16883 0H0L5.46575 7.78353L0 14H1.2351L6.01407 8.56431L9.83119 14H14L8.33192 5.92804ZM6.64027 7.85211L6.08648 7.07704L1.68013 0.909771H3.57718L7.13316 5.88696L7.68694 6.66202L12.3093 13.1316H10.4123L6.64027 7.85211Z" fill="currentColor" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="tgmobile__menu-backdrop"></div>
+        <!-- End Mobile Menu -->
+
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main style="background-color: #F5F6F7;">
+
+        <!--==============================
+        Blog Area
+        ==============================-->
+        <section class="blog-area-4 pt-60 pb-120">
+            <div class="container">
+                <div class="row gy-60">
+                    <div class="col-lg-8">
+                        <div class="row gy-40">
+                            <div class="col-12">
+                                <div class="blog__post-item">
+                                    <div class="blog__post-thumb">
+                                        <a href="./blog_details.html"><img src="./assets/blog/blog-s-1-1.jpg" alt="img"></a>
+                                        <div class="blog__post-date">15 <span>JAN</span></div>
+                                    </div>
+                                    <div class="blog__post-meta">
+                                        <ul class="list-wrap">
+                                            <li><a href="./blog_details.html">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8 0C3.5625 0 0 3.59375 0 8C0 12.4375 3.5625 16 8 16C12.4062 16 16 12.4375 16 8C16 3.59375 12.4062 0 8 0ZM8 15C6.5 15 5.125 14.5625 4 13.7812C4.125 12.2188 5.40625 11 7 11H9C10.5625 11 11.8438 12.2188 11.9688 13.7812C10.8438 14.5625 9.46875 15 8 15ZM12.8438 13.0312C12.4062 11.3125 10.8438 10 9 10H7C5.125 10 3.5625 11.3125 3.125 13.0312C1.8125 11.75 1 9.96875 1 8C1 4.15625 4.125 1 8 1C11.8438 1 15 4.15625 15 8C15 9.96875 14.1562 11.75 12.8438 13.0312ZM8 4C6.59375 4 5.5 5.125 5.5 6.5C5.5 7.90625 6.59375 9 8 9C9.375 9 10.5 7.90625 10.5 6.5C10.5 5.125 9.375 4 8 4ZM8 8C7.15625 8 6.5 7.34375 6.5 6.5C6.5 5.6875 7.15625 5 8 5C8.8125 5 9.5 5.6875 9.5 6.5C9.5 7.34375 8.8125 8 8 8Z" fill="currentColor" />
+                                                    </svg>
+                                                    by Smith</a></li>
+                                            <li><a href="blog-details.html">
+                                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.5 4.25C2.5 3.84375 2.8125 3.5 3.25 3.5C3.65625 3.5 4 3.84375 4 4.25C4 4.6875 3.65625 5 3.25 5C2.8125 5 2.5 4.6875 2.5 4.25ZM6.375 1C6.75 1 7.15625 1.1875 7.4375 1.46875L12.8125 6.84375C13.5938 7.625 13.5938 8.90625 12.8125 9.6875L8.65625 13.8438C7.875 14.625 6.59375 14.625 5.8125 13.8438L0.4375 8.46875C0.15625 8.1875 0 7.78125 0 7.40625V2.5C0 1.6875 0.65625 1 1.5 1H6.375ZM1.125 7.75L6.53125 13.1562C6.90625 13.5312 7.5625 13.5312 7.9375 13.1562L12.125 8.96875C12.5 8.59375 12.5 7.9375 12.125 7.5625L6.71875 2.15625C6.625 2.0625 6.5 2 6.375 2H1.5C1.21875 2 1 2.25 1 2.5V7.40625C1 7.53125 1.03125 7.65625 1.125 7.75ZM9.625 1.15625C9.8125 0.96875 10.125 0.96875 10.3438 1.15625L14.75 5.375C16.4062 6.9375 16.4062 9.59375 14.75 11.1562L10.8438 14.875C10.6562 15.0625 10.3438 15.0625 10.1562 14.875C9.96875 14.6562 9.96875 14.3438 10.1562 14.1562L14.0625 10.4375C15.2812 9.25 15.2812 7.28125 14.0625 6.09375L9.625 1.875C9.4375 1.6875 9.4375 1.375 9.625 1.15625Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                    Business</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog__post-content">
+                                        <h3 class="title"><a href="blog-details.html">Best Practices for Sustainable Growth</a></h3>
+                                        <p class="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
+                                        <div class="blog__post-bottom">
+                                            <a href="./blog_details.html" class="btn">
+                                                <div class="btn-text" data-text="Read Details"></div>
+                                                <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="blog__post-item">
+                                    <div class="blog__post-thumb">
+                                        <a href="./blog_details.html"><img src="./assets/blog/1-2.jpg" alt="img"></a>
+                                        <div class="blog__post-date">20 <span>JAN</span></div>
+                                    </div>
+                                    <div class="blog__post-meta">
+                                        <ul class="list-wrap">
+                                            <li><a href="./blog_details.html">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8 0C3.5625 0 0 3.59375 0 8C0 12.4375 3.5625 16 8 16C12.4062 16 16 12.4375 16 8C16 3.59375 12.4062 0 8 0ZM8 15C6.5 15 5.125 14.5625 4 13.7812C4.125 12.2188 5.40625 11 7 11H9C10.5625 11 11.8438 12.2188 11.9688 13.7812C10.8438 14.5625 9.46875 15 8 15ZM12.8438 13.0312C12.4062 11.3125 10.8438 10 9 10H7C5.125 10 3.5625 11.3125 3.125 13.0312C1.8125 11.75 1 9.96875 1 8C1 4.15625 4.125 1 8 1C11.8438 1 15 4.15625 15 8C15 9.96875 14.1562 11.75 12.8438 13.0312ZM8 4C6.59375 4 5.5 5.125 5.5 6.5C5.5 7.90625 6.59375 9 8 9C9.375 9 10.5 7.90625 10.5 6.5C10.5 5.125 9.375 4 8 4ZM8 8C7.15625 8 6.5 7.34375 6.5 6.5C6.5 5.6875 7.15625 5 8 5C8.8125 5 9.5 5.6875 9.5 6.5C9.5 7.34375 8.8125 8 8 8Z" fill="currentColor" />
+                                                    </svg>
+                                                    by Smith</a></li>
+                                            <li><a href="./blog_details.html">
+                                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.5 4.25C2.5 3.84375 2.8125 3.5 3.25 3.5C3.65625 3.5 4 3.84375 4 4.25C4 4.6875 3.65625 5 3.25 5C2.8125 5 2.5 4.6875 2.5 4.25ZM6.375 1C6.75 1 7.15625 1.1875 7.4375 1.46875L12.8125 6.84375C13.5938 7.625 13.5938 8.90625 12.8125 9.6875L8.65625 13.8438C7.875 14.625 6.59375 14.625 5.8125 13.8438L0.4375 8.46875C0.15625 8.1875 0 7.78125 0 7.40625V2.5C0 1.6875 0.65625 1 1.5 1H6.375ZM1.125 7.75L6.53125 13.1562C6.90625 13.5312 7.5625 13.5312 7.9375 13.1562L12.125 8.96875C12.5 8.59375 12.5 7.9375 12.125 7.5625L6.71875 2.15625C6.625 2.0625 6.5 2 6.375 2H1.5C1.21875 2 1 2.25 1 2.5V7.40625C1 7.53125 1.03125 7.65625 1.125 7.75ZM9.625 1.15625C9.8125 0.96875 10.125 0.96875 10.3438 1.15625L14.75 5.375C16.4062 6.9375 16.4062 9.59375 14.75 11.1562L10.8438 14.875C10.6562 15.0625 10.3438 15.0625 10.1562 14.875C9.96875 14.6562 9.96875 14.3438 10.1562 14.1562L14.0625 10.4375C15.2812 9.25 15.2812 7.28125 14.0625 6.09375L9.625 1.875C9.4375 1.6875 9.4375 1.375 9.625 1.15625Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                    Business</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog__post-content">
+                                        <h3 class="title"><a href="./blog_details.html">How to Build a High-Performance Team</a></h3>
+                                        <p class="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
+                                        <div class="blog__post-bottom">
+                                            <a href="./blog_details.html" class="btn">
+                                                <div class="btn-text" data-text="Read Details"></div>
+                                                <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="blog__post-item">
+                                    <div class="blog__post-thumb">
+                                        <a href="./blog_details.html"><img src="./assets/blog/blog-s-1-3.jpg" alt="img"></a>
+                                        <div class="blog__post-date">14 <span>FEB</span></div>
+                                    </div>
+                                    <div class="blog__post-meta">
+                                        <ul class="list-wrap">
+                                            <li><a href="./blog_details.html">
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M8 0C3.5625 0 0 3.59375 0 8C0 12.4375 3.5625 16 8 16C12.4062 16 16 12.4375 16 8C16 3.59375 12.4062 0 8 0ZM8 15C6.5 15 5.125 14.5625 4 13.7812C4.125 12.2188 5.40625 11 7 11H9C10.5625 11 11.8438 12.2188 11.9688 13.7812C10.8438 14.5625 9.46875 15 8 15ZM12.8438 13.0312C12.4062 11.3125 10.8438 10 9 10H7C5.125 10 3.5625 11.3125 3.125 13.0312C1.8125 11.75 1 9.96875 1 8C1 4.15625 4.125 1 8 1C11.8438 1 15 4.15625 15 8C15 9.96875 14.1562 11.75 12.8438 13.0312ZM8 4C6.59375 4 5.5 5.125 5.5 6.5C5.5 7.90625 6.59375 9 8 9C9.375 9 10.5 7.90625 10.5 6.5C10.5 5.125 9.375 4 8 4ZM8 8C7.15625 8 6.5 7.34375 6.5 6.5C6.5 5.6875 7.15625 5 8 5C8.8125 5 9.5 5.6875 9.5 6.5C9.5 7.34375 8.8125 8 8 8Z" fill="currentColor" />
+                                                    </svg>
+                                                    by Smith</a></li>
+                                            <li><a href="./blog_details.html">
+                                                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M2.5 4.25C2.5 3.84375 2.8125 3.5 3.25 3.5C3.65625 3.5 4 3.84375 4 4.25C4 4.6875 3.65625 5 3.25 5C2.8125 5 2.5 4.6875 2.5 4.25ZM6.375 1C6.75 1 7.15625 1.1875 7.4375 1.46875L12.8125 6.84375C13.5938 7.625 13.5938 8.90625 12.8125 9.6875L8.65625 13.8438C7.875 14.625 6.59375 14.625 5.8125 13.8438L0.4375 8.46875C0.15625 8.1875 0 7.78125 0 7.40625V2.5C0 1.6875 0.65625 1 1.5 1H6.375ZM1.125 7.75L6.53125 13.1562C6.90625 13.5312 7.5625 13.5312 7.9375 13.1562L12.125 8.96875C12.5 8.59375 12.5 7.9375 12.125 7.5625L6.71875 2.15625C6.625 2.0625 6.5 2 6.375 2H1.5C1.21875 2 1 2.25 1 2.5V7.40625C1 7.53125 1.03125 7.65625 1.125 7.75ZM9.625 1.15625C9.8125 0.96875 10.125 0.96875 10.3438 1.15625L14.75 5.375C16.4062 6.9375 16.4062 9.59375 14.75 11.1562L10.8438 14.875C10.6562 15.0625 10.3438 15.0625 10.1562 14.875C9.96875 14.6562 9.96875 14.3438 10.1562 14.1562L14.0625 10.4375C15.2812 9.25 15.2812 7.28125 14.0625 6.09375L9.625 1.875C9.4375 1.6875 9.4375 1.375 9.625 1.15625Z"
+                                                            fill="currentColor" />
+                                                    </svg>
+                                                    Business</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog__post-content">
+                                        <h3 class="title"><a href="./blog_details.html">The Journey with Business Consultancy</a></h3>
+                                        <p class="text">Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services</p>
+                                        <div class="blog__post-bottom">
+                                            <a href="./blog_details.html" class="btn">
+                                                <div class="btn-text" data-text="Read Details"></div>
+                                                <i class="fas fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination__wrap mt-60">
+                            <ul class="list-wrap d-flex flex-wrap">
+                                <li><span class="page-numbers current">01</span></li>
+                                <li><a href="blog.html#" class="page-numbers">02</a></li>
+                                <li><a href="blog.html#" class="page-numbers">03</a></li>
+                                <li><a href="blog.html#" class="page-numbers">04</a></li>
+                                <li><a href="blog.html#" class="page-numbers">
+                                        <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.6875 6.3125C8.09375 6.6875 8.09375 7.34375 7.6875 7.71875L2.6875 12.7188C2.5 12.9062 2.25 13 2 13C1.71875 13 1.46875 12.9062 1.28125 12.7188C0.875 12.3438 0.875 11.6875 1.28125 11.3125L5.5625 7L1.28125 2.71875C0.875 2.34375 0.875 1.6875 1.28125 1.3125C1.65625 0.90625 2.3125 0.90625 2.6875 1.3125L7.6875 6.3125ZM13.6875 6.3125C14.0938 6.6875 14.0938 7.34375 13.6875 7.71875L8.6875 12.7188C8.5 12.9062 8.25 13 8 13C7.71875 13 7.46875 12.9062 7.28125 12.7188C6.875 12.3438 6.875 11.6875 7.28125 11.3125L11.5625 7L7.28125 2.71875C6.875 2.34375 6.875 1.6875 7.28125 1.3125C7.65625 0.90625 8.3125 0.90625 8.6875 1.3125L13.6875 6.3125Z" fill="currentColor" />
+                                        </svg>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <aside class="blog-sidebar">
+                            <div class="blog-widget">
+                                <h4 class="widget-title">Search Here</h4>
+                                <div class="sidebar-search-form">
+                                    <form action="blog.html#">
+                                        <input type="text" placeholder="Enter Keyword">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="blog-widget widget-rc-post">
+                                <h4 class="widget-title">Recent Posts</h4>
+                                <div class="rc-post-wrap">
+                                    <div class="rc-post-item">
+                                        <div class="thumb">
+                                            <a href="./blog_details.html"><img src="./assets/blog/rc_post01.jpg" alt="img"></a>
+                                        </div>
+                                        <div class="content">
+                                            <span class="date"><i class="far fa-clock"></i>15 Jan, 2025</span>
+                                            <h4 class="title"><a href="./blog_details.html">Financial Health Every Business...</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="rc-post-item">
+                                        <div class="thumb">
+                                            <a href="./blog_details.html"><img src="./assets/blog/rc_post02.jpg" alt="img"></a>
+                                        </div>
+                                        <div class="content">
+                                            <span class="date"><i class="far fa-clock"></i>20 Jan, 2025</span>
+                                            <h4 class="title"><a href="./blog_details.html">Improvement is Essential for Business</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="rc-post-item">
+                                        <div class="thumb">
+                                            <a href="./blog_details.html"><img src="./assets/blog/rc_post03.jpg" alt="img"></a>
+                                        </div>
+                                        <div class="content">
+                                            <span class="date"><i class="far fa-clock"></i>25 Jan, 2025</span>
+                                            <h4 class="title"><a href="./blog_details.html">Strategic Partnerships for Growth</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--======== / Blog Section ========-->
+
+    </main>
+    <!-- main-area-end -->
+
+
+    <!-- footer-area -->
+    <footer>
+        <div class="footer__area footer__area-one  black1-bg">
+            <div class="footer__bg-shape1-1"><img src="./assets/bg/footer-bg-shape1-1.png" alt="img"></div>
+            <div class="container">
+                <div class="footer__top fix">
+                    <div class="row gy-40 justify-content-between align-items-center">
+                        <div class="col-xl-5 col-lg-6">
+                            <h3 class="footer__top-title">
+                                Empower your business with expert HR solutions from Balteum Consultants.
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <a href="./contacts.html" class="btn btn-three">
+                                <span class="btn-text" data-text="LET'S WORK TOGETHER"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__middle">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="footer__widget footer__about">
+                                <div class="footer__logo">
+                                    <a href="index.html"><img src="./assets/images/mylogo.png" alt="logo"></a>
+                                </div>
+                                <p class="footer__content mb-35">
+                                    Transforming HR Solutions Across Africa
+                                </p>
+                                <div class="social-links">
+                                    <ul class="list-wrap">
+                                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://twitter.com" target="_blank">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.52219 6.77491L15.4786 0H14.0671L8.89518 5.88256L4.76438 0H0L6.24657 8.89547L0 16H1.41155L6.87322 9.78779L11.2356 16H16L9.52219 6.77491ZM7.58888 8.97384L6.95597 8.08805L1.92015 1.03974H4.08821L8.15218 6.72796L8.78508 7.61374L14.0677 15.0076H11.8997L7.58888 8.97384Z" fill="currentColor" />
+                                                </svg>
+
+                                            </a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <!-- <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.skype.com/" target="_blank"><i class="fab fa-skype"></i></a></li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-auto col-md-6">
+                            <div class="footer__widget footer__links">
+                                <h4 class="footer__widget-title">Quick Links</h4>
+                                <ul class="list-wrap">
+                                    <li>
+                                        <a href="./services.html">
+                                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" stroke-width="1.5" />
+                                            </svg>
+                                            Services
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./job_board.html">
+                                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" stroke-width="1.5" />
+                                            </svg>
+                                            Job Board
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./aboutus.html">
+                                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" stroke-width="1.5" />
+                                            </svg>
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./blog.html">
+                                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" stroke-width="1.5" />
+                                            </svg>
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./contacts.html">
+                                            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 1L15 7M15 7L9 13M15 7H0" stroke="currentColor" stroke-width="1.5" />
+                                            </svg>
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-auto col-md-6">
+                            <div class="footer__widget footer__contact">
+                                <h4 class="footer__widget-title">Visiting Hours</h4>
+                                <div class="footer__info-item">
+                                    <div class="footer__info-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="footer__info-content">
+                                        <p>Mon - Fri: 8.00 to 17.00.</p>
+                                        <p>Sat: 8.00 to 12.30.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-auto col-md-6">
+                            <div class="footer__widget footer__contact">
+                                <h4 class="footer__widget-title">Office Information</h4>
+                                <div class="footer__info-item">
+                                    <div class="footer__info-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="footer__info-content">
+                                        <h4 class="title">Our Location</h4>
+                                        <p>Longonot Place | Kijabe Street Seventh Floor</p>
+                                        <p>P.O. Box 10841 – 00100:</p>
+                                        <p>Nairobi, Kenya.</p>
+                                    </div>
+                                </div>
+                                <div class="footer__info-item">
+                                    <div class="footer__info-icon">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="footer__info-content">
+                                        <h4 class="title">Call Us </h4>
+                                        <a href="tel:25621452156">+(254) 020 440662</a>
+                                        <a href="tel:25621452156">+(254) 780 676389</a>
+                                    </div>
+                                </div>
+                                <div class="footer__info-item">
+                                    <div class="footer__info-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="footer__info-content">
+                                        <h4 class="title">Work with us</h4>
+                                        <a href="mailto:info@balteumconsultants.com">info@balteumconsultants.com</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom text-center">
+                <div class="container">
+                    <div class="footer__copyright">
+                        <a href="index.html#">Balteum Consultants</a> - Copyright 2025. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area-end -->
+
+
+    <!-- JS here -->
+    <script src="./valom/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="./valom/js/bootstrap.bundle.min.js"></script>
+    <script src="./valom/js/jquery.magnific-popup.min.js"></script>
+    <script src="./valom/js/swiper-bundle.min.js"></script>
+    <script src="./valom/js/ajax-form.js"></script>
+    <script src="./valom/js/wow.min.js"></script>
+    <script src="./valom/js/aos.js"></script>
+    <script src="./valom/js/jquery.datetimepicker.min.js"></script>
+
+    <!-- Gsap -->
+    <script src="./valom/js/gsap.min.js"></script>
+    <!-- Scroll Trigger -->
+    <script src="./valom/js/ScrollTrigger.min.js"></script>
+    <!-- Split Text -->
+    <script src="./valom/js/SplitText.min.js"></script>
+
+
+    <script src="./valom/js/jquery.counterup.min.js"></script>
+    <script src="./valom/js/imagesloaded.pkgd.min.js"></script>
+    <script src="./valom/js/isotope.pkgd.min.js"></script>
+    <script src="./valom/js/main.js"></script>
 </body>
+
 </html>

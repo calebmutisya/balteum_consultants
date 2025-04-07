@@ -2218,7 +2218,7 @@ textarea.is-invalid {
   height: 50px;
   background-color: var(--tg-color-white-default);
   border: 1px solid var(--tg-border-1);
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -o-border-radius: 10px;
@@ -8809,7 +8809,7 @@ textarea.is-invalid {
   overflow: hidden;
 }
 .blog__post-item .blog__post-meta {
-  background: var(--tg-heading-color);
+  background: var(--tg-color-gray-1);
   padding: 12px 10px 12px 120px;
 }
 .blog__post-item .blog__post-meta .list-wrap {
@@ -9588,6 +9588,11 @@ blockquote .blockquote-card_title:before {
   border-radius: 12px;
   padding: 40px;
 }
+
+.blog-widget .rc-post-wrap .content .title{
+  color: var(--tg-color-gray-1);
+}
+
 .blog-widget:last-child {
   border-bottom: none;
   margin-bottom: 0;
@@ -9633,7 +9638,7 @@ blockquote .blockquote-card_title:before {
   width: 100%;
   border: 1px solid var(--tg-border-1);
   padding: 13px 65px 13px 25px;
-  color: var(--tg-heading-color);
+  color: var(--tg-color-gray-1);
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
