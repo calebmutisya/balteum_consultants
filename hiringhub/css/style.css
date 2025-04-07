@@ -35,9 +35,9 @@
     --thm-secondary-color: #ed746c;
     --thm-secondary-color-rgb: 237, 116, 108;
 
-    --thm-body-font-color: #6a726f;
+    --thm-body-font-color: #74787C;
     --thm-body-font-size: 17px;
-    --thm-body-line-height: 28px;
+    --thm-body-line-height: 1.75;
     --thm-body-font-weight: 400;
 
     --thm-heading-font-color: #1C2F35;
@@ -9096,7 +9096,7 @@ Pricing Style1
 .company-details-form .title-box {
     position: relative;
     display: block;
-    padding-left: 75px;
+    padding-left: 0px;
     margin-bottom: 35px;
 }
 
