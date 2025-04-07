@@ -1,0 +1,156 @@
+/*** 
+=============================================
+    Fact Counter style1 Css
+=============================================
+***/
+.fact-counter-style1 {
+    padding: 120px 0px 120px;
+    background-color: var(--thm-gray-bg);
+}
+
+.fact-counter-style1__single {
+    position: relative;
+    display: block;
+    border-left: 1px solid var(--thm-primary-color);
+}
+
+.fact-counter-style1__single .fact-counter-box {
+    position: relative;
+    display: block;
+    padding-left: 40px;
+}
+
+.fact-counter-style1__single .circle-box {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid var(--thm-primary-color);
+    margin-bottom: 11px;
+}
+
+.fact-counter-style1__single .counter-box {
+    position: relative;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.fact-counter-style1__single .counter-box h2 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 500;
+}
+
+.fact-counter-style1__single .counter-box h2 .k {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    margin-left: -14px;
+    line-height: 50px;
+}
+
+.fact-counter-style1__single .fact-counter-box p {
+    color: var(--thm-black);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+/*** 
+=============================================
+    Fact Counter style2 Css
+=============================================
+***/
+.fact-counter-style2 {
+    padding: 120px 0px 60px;
+    background-color: var(--thm-white);
+}
+
+.fact-counter-style2.pdb120 {
+    padding-bottom: 120px;
+}
+
+ul.fact-counter-style2--row {
+    --bs-gutter-x: 0px;
+}
+
+ul.fact-counter-style2--row li {
+    border-right: 1px solid var(--thm-border-color);
+}
+
+ul.fact-counter-style2--row li:last-child {
+    border-right: 0px solid var(--thm-border-color);
+}
+
+.fact-counter-style1__single--style2 .fact-counter-box {
+    padding-left: 0px;
+}
+
+.fact-counter-style1__single--style2 {
+    border-left: 0px solid var(--thm-primary-color);
+}
+
+.fact-counter-style1__single--style2 .round-box {
+    position: relative;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid var(--thm-primary-color);
+    margin: 0 auto 11px;
+}
+
+.fact-counter-style1__single--style2 .counter-box h2 .k {
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    margin-left: -14px;
+}
+
+.fact-counter-style1__single--style2 .fact-counter-box p {
+    color: var(--thm-body-font-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============== End Css ==============*/
