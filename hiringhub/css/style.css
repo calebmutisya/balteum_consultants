@@ -18,22 +18,19 @@
 --------------------------------------------------------------*/
 
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
 
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 
 
 /*== Default Css ==*/
 
 :root {
-    --thm-font: 'Outfit', sans-serif;
-    --thm-font-2: "Lora", serif;
-    --thm-primary-color: #00c486;
+    --thm-font: 'Inter', sans-serif;
+    --thm-font-2: 'Exo', serif;
+    --thm-primary-color: #DD3333;
     --thm-primary-color-rgb: 0, 196, 134;
     --thm-secondary-color: #ed746c;
     --thm-secondary-color-rgb: 237, 116, 108;
@@ -43,10 +40,10 @@
     --thm-body-line-height: 28px;
     --thm-body-font-weight: 400;
 
-    --thm-heading-font-color: #062a26;
+    --thm-heading-font-color: #1C2F35;
     --thm-white: #ffffff;
-    --thm-black: #062a26;
-    --thm-black-bg: #062a26;
+    --thm-black: #1C2F35;
+    --thm-black-bg: #1C2F35;
     --thm-gray-bg: #edf4f2;
 
     --thm-border-color: #dde6e3;
@@ -3113,7 +3110,7 @@ select:focus {
     justify-content: center;
     width: 85px;
     height: 85px;
-    background-color: #062a26;
+    background-color: #1C2F35;
     border: 1px solid #23423f;
     border-top-left-radius: 6px;
     top: -1px;
@@ -4159,7 +4156,7 @@ Pricing Style1
 }
 
 .tab-btn-box-style2 .tab-btns li.active-btn {
-    color: #062a26;
+    color: #1C2F35;
 }
 
 
@@ -7156,8 +7153,8 @@ Pricing Style1
     display: flex;
     align-items: center;
     padding-top: 9px;
-
 }
+
 
 .single-job-post .bottom-box ul li:first-child {
     padding-top: 0;
@@ -7862,7 +7859,7 @@ Pricing Style1
     display: block;
     overflow: hidden;
     border-radius: 6px;
-    background-color: #062a26;
+    background-color: #1C2F35;
     padding: 40px 30px 40px;
     margin: 0px 20px 20px;
     z-index: 1;
@@ -8484,7 +8481,7 @@ Pricing Style1
 ***/
 .job-details-page {
     background-color: var(--thm-white);
-    padding: 120px 0px 120px;
+    padding: 60px 0px 60px;
 }
 
 .job-details-page-content {
@@ -9079,7 +9076,7 @@ Pricing Style1
 ***/
 .place-job-form {
     background-color: var(--thm-white);
-    padding: 120px 0 120px;
+    padding: 30px 0 120px;
 }
 
 .place-job-form-box {
