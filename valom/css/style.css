@@ -9224,9 +9224,12 @@ textarea.is-invalid {
   }
 }
 .blog__details-wrap .blog__post-meta {
-  background: var(--tg-heading-color);
+  background: var(--tg-color-gray-1);
   padding: 12px 10px 12px 120px;
 }
+
+
+
 .blog__details-wrap .blog__post-meta .list-wrap {
   position: relative;
 }
@@ -9294,6 +9297,7 @@ textarea.is-invalid {
 }
 .blog__details-content .title {
   margin-top: -0.15em;
+  color: var(--tg-color-gray-1);
 }
 @media (max-width: 767.98px) {
   .blog__details-content {
