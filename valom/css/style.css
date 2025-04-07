@@ -3713,6 +3713,7 @@ textarea.is-invalid {
   position: relative;
 }
 .hero-slider1 .swiper-slide {
+  height: 88vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -3753,6 +3754,12 @@ textarea.is-invalid {
     height: 200px;
   }
 }
+/* @media(max-width: 767.98px){
+  .hero-slider1 .swiper-slide{
+    height: 80vh;
+  }
+} */
+ 
 .hero-slider1 .swiper-slide .hero-bg-shape1-2 {
   position: absolute;
   width: 172px;
