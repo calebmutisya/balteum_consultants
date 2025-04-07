@@ -1,0 +1,101 @@
+/*** 
+=============================================
+    Breadcrumb style1
+=============================================
+***/
+.breadcrumb-style1 {
+    position: relative;
+    display: block;
+    margin-top: 45px;
+    z-index: 10;
+}
+
+.breadcrumb-style1-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.breadcrumb-style1-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+
+
+
+.breadcrumb-style1 .inner-content {
+    position: relative;
+    display: block;
+    padding: 275px 0px 186px;
+}
+
+.breadcrumb-style1 .title {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.breadcrumb-style1 .title h2 {
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+.breadcrumb-menu {
+    position: absolute;
+    left: 0;
+    bottom: 34px;
+}
+
+.breadcrumb-menu ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-menu ul li {
+    position: relative;
+    display: block;
+    color: var(--thm-white);
+    font-size: 17px;
+    line-height: 25px;
+    font-family: var(--thm-font);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.breadcrumb-menu ul li+li {
+    margin-left: 9px;
+}
+
+.breadcrumb-menu ul li a {
+    color: var(--thm-white);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.breadcrumb-menu ul li a:hover,
+.breadcrumb-menu ul li.active {
+    color: var(--thm-primary-color)
+}
+
+.breadcrumb-menu ul li span {
+    font-size: 10px;
+}

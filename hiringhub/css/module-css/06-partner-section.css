@@ -1,0 +1,162 @@
+/*** 
+=============================================
+    Partner Style1 Css
+=============================================
+***/
+.partner-style1 {
+    background-color: var(--thm-white);
+    padding: 120px 0px 113px;
+}
+
+.partner-style1 .container {
+    max-width: 1208px;
+}
+
+.partner-style1__single {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: var(--thm-white);
+    border: 1px solid var(--thm-border-color);
+    margin-bottom: 30px;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.partner-style1__single:hover {
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.06);
+}
+
+.partner-style1__single a img {
+    position: relative;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.partner-style1__single a:hover img:first-child {
+    -webkit-transform: translatex(-50%) scalex(2);
+    transform: translatex(-50%) scalex(2);
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.partner-style1__single a img:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    -webkit-transform: translatex(50%) scalex(2);
+    transform: translatex(50%) scalex(2);
+    opacity: 0;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.partner-style1__single a:hover img:nth-child(2) {
+    -webkit-transform: translatex(0) scalex(1);
+    transform: translatex(0) scalex(1);
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+
+
+.partner-style1__btn {
+    position: relative;
+    display: block;
+    padding-top: 23px;
+}
+
+.partner-style1__btn a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-black);
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--thm-font);
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.partner-style1__btn a:hover {
+    color: var(--thm-primary-color);
+}
+
+.partner-style1__btn a span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+
+
+/*** 
+=============================================
+    Partner Style2 Css
+=============================================
+***/
+.partner-style2 {
+    overflow: hidden;
+    background-color: var(--thm-gray-bg);
+    padding: 100px 0px 100px;
+}
+
+.partner-style2 .container {
+    max-width: 1920px;
+    padding: 0;
+}
+
+.partner-style2__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #cad8d4;
+}
+
+.partner-style2__single a {
+    position: relative;
+    display: inline-block;
+}
+
+.partner-style2__single a img {
+    opacity: 1;
+    transition: all 0.2s ease-in-out 0.1s;
+    filter: grayscale(0%);
+}
+
+.partner-style2__single a:hover img {
+    opacity: 0.6;
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+.partner-style2-carousel {
+    position: relative;
+}
+
+.partner-style2-carousel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1px;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--thm-gray-bg);
+    z-index: 2;
+}
