@@ -748,6 +748,16 @@ textarea {
 .btn-three:focus, .btn-three:active, .btn-three:hover {
   color: var(--tg-theme-primary) !important;
 }
+
+.btn-nine:before {
+  background: var(--tg-heading-color);
+  
+}
+.btn-nine:focus, .btn-nine:active, .btn-nine:hover {
+  color: var(--tg-color-white-default) !important;
+  background: var(--tg-heading-color);
+}
+
 .btn-four {
   background: #4D555A;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -7674,6 +7684,12 @@ textarea.is-invalid {
   width: 100%;
 }
 
+@media (max-width: 730px){
+  .faq-thumb1-1{
+    display: none;
+  }
+}
+
 .accordion-card {
   transition: 0.3s;
   background: var(--tg-color-white-default);
@@ -8364,6 +8380,12 @@ textarea.is-invalid {
   right: 0;
   bottom: 80px;
 }
+@media(max-width: 730px){
+ .about-thumb3-1 {
+  display: none;
+ }
+}
+
 @media (max-width: 380px) {
   .about-thumb3-1{
     display: none;
@@ -10340,6 +10362,7 @@ blockquote .blockquote-card_title:before {
   margin-top: -0.15em;
   margin-bottom: 12px;
   transition: 0.4s;
+  color: var(--tg-color-gray-1);
 }
 .process-nav-tabs .nav-item .nav-link .box-text {
   margin-bottom: -0.45em;
@@ -11135,6 +11158,12 @@ blockquote .blockquote-card_title:before {
 .wcu-thumb2-1 {
   display: inline-block;
   mask-size: 100% 100%;
+}
+
+@media(max-width: 430px) {
+  .wcu-thumb2-1 {
+    display: none;
+  }
 }
 
 /*skill-feature**************/
