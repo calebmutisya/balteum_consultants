@@ -4511,6 +4511,11 @@ textarea.is-invalid {
   font-size: 3.75rem;
   color: var(--tg-color-gray-1)
 }
+.service-title h3{
+  font-size: 1.875rem;
+  color: var(--tg-color-gray-1)
+}
+
 .service-title p{
   color: var(--tg-body-color);
   text-align: center;
