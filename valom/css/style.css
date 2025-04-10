@@ -54,7 +54,7 @@
   --tg-body-font-size: 16px;
   --tg-body-line-height: 1.75;
   --tg-heading-line-height: 1.2;
-  --tg-body-color: #74787C;
+  --tg-body-color: #454545;
   --tg-heading-color: #DD9933;
   --tg-theme-primary: #DD3333;
   --tg-color-dark-theme: #51AEA9;
@@ -2954,7 +2954,7 @@ textarea.is-invalid {
   content: "\f107";
   font-weight: 700;
   font-family: var(--tg-icon-font-family);
-  color: var(--tg-heading-color);
+  color: var(--tg-theme-primary);
   margin-left: 4px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -4499,6 +4499,30 @@ textarea.is-invalid {
     display: none;
   }
 }
+
+/* Our Service Page */
+.service-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-title h2{
+  font-size: 3.75rem;
+  color: var(--tg-color-gray-1)
+}
+.service-title p{
+  color: var(--tg-body-color);
+  text-align: center;
+}
+
+@media (max-width: 540px){
+  .service-title h2{
+    font-size: 1.875rem;
+  }
+}
+
+/* Our Service Page End */
 
 /*=============================
     Service 01
