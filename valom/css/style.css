@@ -8841,8 +8841,15 @@ textarea.is-invalid {
     Counter Area Ends
 ===============================*/
 
+/* Blog Area 4 Starts */
 
+@media(max-width: 430px){
+  .blog-area-4{
+    padding-top: 30px;
+  }
+}
 
+/* Blog Area 4 Ends */
 
 /*=============================
     Blog
