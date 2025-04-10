@@ -8210,6 +8210,13 @@ textarea.is-invalid {
 .about-grid-card .card-details {
   align-self: center;
 }
+
+@media(max-width: 540px){
+  .about-area-2{
+    padding-top: 30px;
+  }
+}
+
 @media (max-width: 767.98px) {
 
   .about-area-2{
@@ -8349,6 +8356,15 @@ textarea.is-invalid {
   height: 300px;
   opacity: 0.25;
 }
+
+@media(max-width: 540px){
+
+  .about-thumb2-1 {
+    display: none;
+  }
+
+}
+
 @media (max-width: 767.98px) {
   .about-thumb2-1 {
     padding: 0;
