@@ -2260,7 +2260,7 @@ textarea.is-invalid {
   background: var(--tg-theme-primary);
   padding: 11px 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 853px) {
   .tg-header__top {
     display: none;
   }
@@ -4826,6 +4826,20 @@ textarea.is-invalid {
 .service__details-wrap .service__details-thumb .thumb img {
   width: 100%;
 }
+
+.service__details-wrap .service__details-thumb2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.service__details-wrap .service__details-thumb2 .thumb img {
+  max-height: 360px;
+}
+.service__details-wrap .service__details-thumb2 .thumb2 img {
+  max-height: 169px;
+}
+
 .service__details-wrap .title {
   font-size: 36px;
   color: var(--tg-color-gray-1);
@@ -7111,11 +7125,13 @@ textarea.is-invalid {
   line-height: 0.01px;
   position: relative;
   z-index: 1;
+  min-height: 60vh;
 }
+
 .contact-map-area iframe {
   height: 100%;
   width: 100%;
-  filter: grayscale(100) brightness(0.8);
+  filter: grayscale(100) brightness(0.9);
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -8357,7 +8373,7 @@ textarea.is-invalid {
   opacity: 0.25;
 }
 
-@media(max-width: 540px){
+@media(max-width: 1024px){
 
   .about-thumb2-1 {
     display: none;
