@@ -8630,7 +8630,7 @@ Pricing Style1
 }
 
 .job-details-page-content .job-description h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     font-weight: 500;
     margin-bottom: 23px;
@@ -8653,7 +8653,7 @@ Pricing Style1
 }
 
 .job-details-page-content .job-responsibilities h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     font-weight: 500;
     margin-bottom: 23px;
@@ -8705,7 +8705,7 @@ Pricing Style1
 }
 
 .job-details-page-content .job-requirements h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     font-weight: 500;
     margin-bottom: 24px;
@@ -8736,7 +8736,8 @@ Pricing Style1
 .job-details-page-content .job-requirements .list-item li .icon-box i {
     position: relative;
     display: inline-block;
-    font-size: 16px;
+    font-size: 8px;
+    color: var(--thm-body-font-color);
 }
 
 .job-details-page-content .job-requirements .list-item li .text-box {
@@ -9120,7 +9121,7 @@ Pricing Style1
 }
 
 .company-details-form .title-box .title h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     font-weight: 500;
     margin-bottom: 3px;
