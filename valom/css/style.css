@@ -7111,11 +7111,13 @@ textarea.is-invalid {
   line-height: 0.01px;
   position: relative;
   z-index: 1;
+  min-height: 60vh;
 }
+
 .contact-map-area iframe {
   height: 100%;
   width: 100%;
-  filter: grayscale(100) brightness(0.8);
+  filter: grayscale(100) brightness(0.9);
   position: absolute;
   inset: 0;
   z-index: -1;
