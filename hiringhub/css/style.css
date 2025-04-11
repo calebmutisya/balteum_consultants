@@ -35,7 +35,7 @@
     --thm-secondary-color: #ed746c;
     --thm-secondary-color-rgb: 237, 116, 108;
 
-    --thm-body-font-color: #74787C;
+    --thm-body-font-color: #454545;
     --thm-body-font-size: 17px;
     --thm-body-line-height: 1.75;
     --thm-body-font-weight: 400;
@@ -6806,7 +6806,7 @@ Pricing Style1
 ================================*/
 .job-opening-style1 {
     background-color: var(--thm-white);
-    padding: 120px 0px 90px;
+    padding: 60px 0px 90px;
 }
 
 .job-opening-style1__form {
@@ -7169,7 +7169,7 @@ Pricing Style1
     position: relative;
     display: block;
     line-height: 0;
-    color: #a5b1ad;
+    color: #454545;
     font-size: 16px;
 }
 
@@ -7181,6 +7181,7 @@ Pricing Style1
 
 .single-job-post .bottom-box ul li .text p {
     margin: 0;
+    font-size: 14px;
 }
 
 
