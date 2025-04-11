@@ -4826,6 +4826,20 @@ textarea.is-invalid {
 .service__details-wrap .service__details-thumb .thumb img {
   width: 100%;
 }
+
+.service__details-wrap .service__details-thumb2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.service__details-wrap .service__details-thumb2 .thumb img {
+  max-height: 360px;
+}
+.service__details-wrap .service__details-thumb2 .thumb2 img {
+  max-height: 169px;
+}
+
 .service__details-wrap .title {
   font-size: 36px;
   color: var(--tg-color-gray-1);
