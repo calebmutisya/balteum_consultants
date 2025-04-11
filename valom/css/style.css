@@ -2260,7 +2260,7 @@ textarea.is-invalid {
   background: var(--tg-theme-primary);
   padding: 11px 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 853px) {
   .tg-header__top {
     display: none;
   }
@@ -8373,7 +8373,7 @@ textarea.is-invalid {
   opacity: 0.25;
 }
 
-@media(max-width: 540px){
+@media(max-width: 1024px){
 
   .about-thumb2-1 {
     display: none;
